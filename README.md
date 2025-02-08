@@ -28,7 +28,7 @@ A robust Python utility that converts HEIF/HEIC images (commonly used by iPhones
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YourUsername/heif-converter.git
+git clone https://github.com/MananKateshiya/heif-image-converter.git
 cd heif-converter
 ```
 
