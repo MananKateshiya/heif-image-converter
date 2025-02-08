@@ -1,10 +1,10 @@
-# HEIF Image Converter 🖼️
+# HEIC Image Converter 🖼️
 
-A robust Python utility that converts HEIF/HEIC images (commonly used by iPhones) to other formats while maintaining maximum possible quality. The converter includes a quality analysis feature that calculates and reports any potential quality loss during conversion.
+A robust Python utility that converts HEIC/HEIC images (commonly used by iPhones) to other formats while maintaining maximum possible quality. The converter includes a quality analysis feature that calculates and reports any potential quality loss during conversion.
 
 ## ✨ Features
 
-- Convert HEIF/HEIC images to PNG (lossless) or JPEG formats
+- Convert HEIC/HEIC images to PNG (lossless) or JPEG formats
 - Automatic quality loss calculation using Structural Similarity Index (SSIM)
 - Batch processing of multiple images
 - Organized output in a separate directory
@@ -28,8 +28,8 @@ A robust Python utility that converts HEIF/HEIC images (commonly used by iPhones
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/MananKateshiya/heif-image-converter.git
-cd heif-converter
+git clone https://github.com/MananKateshiya/heic-image-converter.git
+cd heic-converter
 ```
 
 2. Install dependencies:
@@ -39,20 +39,20 @@ pip install -r requirements.txt
 
 ## 💻 Usage
 
-1. Open terminal in the directory containing your HEIF/HEIC images
+1. Open terminal in the directory containing your HEIC/HEIC images
 
 2. Run the converter with your desired output format:
 ```bash
 # For PNG conversion (lossless)
-python heif_converter.py png
+python heic_converter.py png
 
 # For JPEG conversion
-python heif_converter.py jpg
+python heic_converter.py jpg
 ```
 
 The script will:
 - Create a new folder named after the parent directory (e.g., "Photos-png" or "Photos-jpg")
-- Convert all HEIF/HEIC images in the current directory
+- Convert all HEIC/HEIC images in the current directory
 - Display quality analysis for each conversion
 
 ## 📊 Quality Analysis
@@ -76,7 +76,7 @@ Your-Photos-Directory/
 ## ⚠️ Error Handling
 
 The converter includes robust error handling:
-- Skips non-HEIF files automatically
+- Skips non-HEIC files automatically
 - Continues processing if individual conversions fail
 - Provides detailed error messages for troubleshooting
 
@@ -93,7 +93,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- [pillow-heif](https://github.com/bigcat88/pillow_heif) for HEIF support
+- [pillow-heic](https://github.com/bigcat88/pillow_heic) for HEIC support
 - [scikit-image](https://scikit-image.org/) for quality analysis
 - All contributors and users of this project
 
